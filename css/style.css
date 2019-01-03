@@ -1,0 +1,16 @@
+.trigger-container {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.trigger-input {
+  display: none;
+}
+
+.trigger-input:checked + .trigger-question p {
+  display: block;
+}
+
+.trigger-question p {
+  display: none;
+}
